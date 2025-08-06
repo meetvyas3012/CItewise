@@ -1,0 +1,22 @@
+[global]
+developmentMode = false
+dataFrameSerialization = "legacy"
+
+[server]
+port = 8501
+address = "0.0.0.0"
+headless = true
+enableCORS = true
+enableXsrfProtection = false
+maxUploadSize = 200
+
+[browser]
+serverAddress = "localhost"
+gatherUsageStats = false
+
+[logger]
+level = "info"
+
+[client]
+caching = true
+displayEnabled = true

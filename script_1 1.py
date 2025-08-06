@@ -1,0 +1,53 @@
+# Create a requirements file optimized for Streamlit deployment
+streamlit_requirements = '''# Core Streamlit and Web Framework
+streamlit>=1.28.0
+streamlit-authenticator>=0.2.3
+
+# Core ML and NLP
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Vector Database (CPU version for easier deployment)
+faiss-cpu>=1.7.4
+
+# Document Processing
+PyPDF2>=3.0.0
+pdfplumber>=0.9.0
+python-docx>=0.8.11
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# Database
+sqlalchemy>=2.0.0
+sqlite3
+
+# Search and Retrieval
+rank-bm25>=0.2.2
+
+# LLM Integration (optional, fallback to mock if not available)
+gpt4all>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+tqdm>=4.65.0
+loguru>=0.7.0
+
+# Evaluation
+nltk>=3.8.0
+scikit-learn>=1.3.0
+
+# Additional Streamlit components
+streamlit-option-menu>=0.3.6
+plotly>=5.15.0
+'''
+
+with open('requirements_streamlit.txt', 'w') as f:
+    f.write(streamlit_requirements)
+
+print("✅ Streamlit-specific requirements created")
