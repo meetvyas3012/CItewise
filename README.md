@@ -1,4 +1,4 @@
-# Multi-Document Research Assistant 📚
+# CiteWise
 
 A comprehensive RAG (Retrieval-Augmented Generation) system that enables users to pose complex questions across a corpus of documents and receive synthesized answers with inline citations. Built entirely with open-source tools for privacy-preserving, cost-effective document analysis.
 
