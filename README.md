@@ -249,9 +249,6 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -261,12 +258,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Streamlit** for rapid web app development
 - **LangChain** for inspiration on RAG architectures
 
-## 📞 Support
-
-- 📖 **Documentation**: [https://multi-doc-rag.readthedocs.io/](https://multi-doc-rag.readthedocs.io/)
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/multi-doc-rag/multi-doc-rag/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/multi-doc-rag/multi-doc-rag/discussions)
-- 📧 **Email**: support@multi-doc-rag.com
 
 ## 🔮 Roadmap
 
@@ -278,5 +269,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] **Mobile Interface**: Mobile-optimized web interface
 
 ---
-
-**Built with ❤️ by the Multi-Document RAG Team**
